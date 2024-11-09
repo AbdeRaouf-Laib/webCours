@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Exercice jQuery</title>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+<h1 id="titre">Titre de la Page</h1>
+<p id="paragraphe">Ceci est un paragraphe.</p>
+<button id="btnModifierTexte">Modifier le Texte</button>
+<script>
+// Votre code jQuery sera ici
+</script>
+<script>
+    $(document).ready(function(){
+$("#btnModifierTexte").click(function(){
+$("#paragraphe").text("Nouveau paragraphe!");
+$("#titre").css("color", "green");
+});
+});
+</script>
+</body>
+</html>
